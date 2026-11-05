@@ -1,0 +1,54 @@
+.movie-details {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.movie-details img {
+  border-radius: 10px;
+}
+
+.movie-info {
+  max-width: 800px;
+  text-align: center;
+  
+}
+
+.movie-card {
+  width: 220px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  text-align: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+
+  
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.movie-grid button {
+  display: block;
+  margin-top: 10px;
+}
